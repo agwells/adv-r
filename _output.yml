@@ -15,3 +15,5 @@ bookdown::pdf_book:
   includes:
     in_header: header.tex
 
+bookdown::epub_book:
+  css: adv-r.css
