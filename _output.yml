@@ -16,4 +16,4 @@ bookdown::pdf_book:
     in_header: header.tex
 
 bookdown::epub_book:
-  css: adv-r.css
+  stylesheet: adv-r.css

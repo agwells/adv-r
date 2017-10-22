@@ -72,8 +72,8 @@ Hash: 67d0775189fd0041d95abca618c5c07e
 
 Package: bookdown
 Source: CRAN
-Version: 0.3
-Hash: 0c77f8bbcb8b4c96c6630f4a13d17c70
+Version: 0.5
+Hash: 6cde091e04da40dae899d1024469c803
 Requires: htmltools, knitr, rmarkdown, yaml
 
 Package: caTools
@@ -176,8 +176,8 @@ Hash: 9c51936d8dd00b2f1d4fe9d10499694c
 
 Package: knitr
 Source: CRAN
-Version: 1.15.1
-Hash: eed7437e2b614c9e3923b7932b16ac97
+Version: 1.17
+Hash: f6b2bf543ee3e25f5b92bb46f9958c5f
 Requires: digest, evaluate, highr, markdown, stringr, yaml
 
 Package: labeling
@@ -309,10 +309,10 @@ Hash: c17b638e3282aa222a47112d7a60bc66
 
 Package: rmarkdown
 Source: CRAN
-Version: 1.3
-Hash: d8f0cf248116dbdfc23f35991d0ed3f7
+Version: 1.6
+Hash: 40f4034a7b8e28edc2b384bdb0c4d537
 Requires: base64enc, caTools, evaluate, htmltools, jsonlite, knitr,
-    rprojroot, yaml
+    rprojroot, stringr, yaml
 
 Package: rprojroot
 Source: CRAN
@@ -336,12 +336,12 @@ Requires: R6, digest, htmltools, httpuv, jsonlite, mime, sourcetools,
 Package: sloop
 Source: github
 Version: 0.0.0.9000
-Hash: 71ba83788fce22a9d60ae1f2b7adb4ae
+Hash: 46d5374b194864c449aef13d1f469127
 Requires: purrr, rlang, tibble
 GithubRepo: sloop
 GithubUsername: agwells
-GithubRef: 21e7ad0f9e83a2fd9cc9b8905c6e6c121d73d5cf
-GithubSha1: 21e7ad0f9e83a2fd9cc9b8905c6e6c121d73d5cf
+GithubRef: master
+GithubSha1: ece21d889be13b85b377bad69200b6c40564b5d5
 
 Package: sourcetools
 Source: CRAN
@@ -364,6 +364,12 @@ Source: CRAN
 Version: 1.3.4
 Hash: 3b72bdedb6c27fb216574ab9b15f2d43
 Requires: Rcpp, rlang
+
+Package: webshot
+Source: CRAN
+Version: 0.4.2
+Hash: 773f4384f1f565aa13f396e9c01c0667
+Requires: jsonlite, magrittr
 
 Package: xtable
 Source: CRAN

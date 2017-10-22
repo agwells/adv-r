@@ -2,6 +2,8 @@
 
 ```{r setup, include = FALSE}
 source("common.R")
+library("pryr")
+library("rlang")
 ```
 
 To compute on the language, we first need to understand its structure. That requires some new vocabulary, some new tools, and some new ways of thinking about R code. \index{expressions}
